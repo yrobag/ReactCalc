@@ -29,8 +29,11 @@ class Button extends React.Component {
 
 
     render() {
+        let className = this.state.isNumber ? 'button number' : 'button sign';
         return(
-            <button onClick={this.handleClick}>{this.state.sign}</button>
+            <div className={className} onClick={this.handleClick}>
+                {this.state.sign}
+            </div>
         );
     }
 

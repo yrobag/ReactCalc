@@ -9,7 +9,9 @@ class Screen extends React.Component {
 
     render() {
         return(
-            <div>{this.props.value}</div>
+            <div className={'screen'}>
+                {this.props.value}
+            </div>
         );
     }
 

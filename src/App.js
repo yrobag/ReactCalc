@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Counter from './components/Counter';
 import Calculator from './components/Calculator';
 import './App.css';
 
@@ -8,7 +7,6 @@ class App extends Component {
     return (
       <div className="App">
           <Calculator/>
-          {/*<Counter/>*/}
       </div>
     );
   }
